@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-18",
+  "software_unit_tests": {
+    "passed": 21,
+    "failed": 0,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "command": "python -m unittest discover -s tests -v",
+    "test_inputs_identical_to_tested_snapshot": true
+  },
+  "large_file_limit_bytes": 10485760,
+  "notebook_json_and_python_syntax": "passed",
+  "credential_pattern_scan": "passed",
+  "standard_markdown_attachment_links": "no_unresolved_links",
+  "hardware_rtl_synthesis_and_rf_tests": "not_run_in_this_publication"
+}

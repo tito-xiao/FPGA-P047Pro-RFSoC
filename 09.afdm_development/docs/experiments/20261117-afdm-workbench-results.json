@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-17",
+  "branch": "dev/xiao",
+  "working_tree": "uncommitted task changes",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "os": "Windows",
+    "vivado": "2023.1"
+  },
+  "scope": "Computer software + XSim only; no board connection/programming",
+  "software_passed": true,
+  "channel_estimation": {
+    "passed": 6,
+    "total": 6,
+    "cases": [
+      {
+        "scenario": "static",
+        "snr_db": null,
+        "bit_errors": 0,
+        "bits": 1024,
+        "channel_nmse": 1.8506320838812556e-26
+      },
+      {
+        "scenario": "static",
+        "snr_db": 25.0,
+        "bit_errors": 0,
+        "bits": 1024,
+        "channel_nmse": 0.0002619909518594406
+      },
+      {
+        "scenario": "integer",
+        "snr_db": null,
+        "bit_errors": 0,
+        "bits": 1024,
+        "channel_nmse": 2.0222406685072833e-26
+      },
+      {
+        "scenario": "integer",
+        "snr_db": 25.0,
+        "bit_errors": 0,
+        "bits": 1024,
+        "channel_nmse": 0.0004717024227854862
+      },
+      {
+        "scenario": "fractional_offgrid",
+        "snr_db": null,
+        "bit_errors": 0,
+        "bits": 1024,
+        "channel_nmse": 1.5480019406798316e-16
+      },
+      {
+        "scenario": "fractional_offgrid",
+        "snr_db": 25.0,
+        "bit_errors": 0,
+        "bits": 1024,
+        "channel_nmse": 0.0007002651271323379
+      }
+    ]
+  },
+  "message_frames": {
+    "passed": 6,
+    "total": 6
+  },
+  "file_loopback": {
+    "frames": 3,
+    "packet_error_rate": 0.0,
+    "kind": "SIMULATED"
+  },
+  "fixedpoint": {
+    "bits": 4096,
+    "bit_errors": 0,
+    "max_roundtrip_error": 0.00017268217388962369,
+    "stress_tx_clipped": 0,
+    "stress_rx_clipped": 0
+  },
+  "stability": {
+    "frames_sent": 24,
+    "frames_delivered": 24,
+    "packet_error_rate": 0.0,
+    "delivered_bits": 24576,
+    "bit_errors_on_delivered_frames": 0
+  },
+  "rtl": {
+    "xsim_pass": true,
+    "simulation_log_sha256": "7e5f8217c6c7c582b8ad5cdbbd8423d671f0787aab3c2af9aeea2145376873a6",
+    "tested": "N64/L16/3 blocks; signed rotator, TX/CP/strip/RX, replay/capture, random AXI backpressure"
+  },
+  "synthesis": {
+    "status": "BLOCKED_LICENSE",
+    "target": "xczu47dr-ffve1156-2-i",
+    "log_sha256": "52c81734fabe27dcfc32317c229db8200bcf08905a2aafa1fb1e27e2a3caf2c3",
+    "placed_routed": false,
+    "timing_closed": false
+  },
+  "actual_rf_tested": false,
+  "full_fpga_realtime_tested": false,
+  "source_sha256": {
+    "afdm_lab/__init__.py": "954911e896e74e56cfed30cf10de8e2a5741e1e3e54e3d9ef2029f624ac59c5d",
+    "afdm_lab/board.py": "8670b1ad2341aa8450cf8a1d827fc3512f0d578c39bd9cfe723d712b0fd1a285",
+    "afdm_lab/cli.py": "92983d3a39cc50409c6f793d0264dad89d23821f95614ceeed393a0a9b94f3ad",
+    "afdm_lab/core.py": "8d56e78c70ef3afec1dfd57fed01546656b29b73a69d34c48c610bb46d609dda",
+    "afdm_lab/estimation.py": "8e13fa8c19c9168d03516fcb3fd84d55fbbc1d3101342ac56270a8bab6457327",
+    "afdm_lab/fixedpoint.py": "eedf522212d81b59804f7e9a68a4eb99dff29116c545bfb91187b6cd0015003a",
+    "afdm_lab/iqio.py": "96459f2d7463e965ed07c44363614e377c44d3cb629227ec7df2e2453791b0b9",
+    "afdm_lab/link.py": "2c8921558a949bd0e6e9eec1f762e3e9595e4463a61babc23d87eec3e8da13ca",
+    "afdm_lab/rf.py": "0a2cd97d3d825b2e41f1b763cd681c52c28d6e35b54e730f69dac320b842922b",
+    "afdm_lab/simulation.py": "74454236f625bf1c9de99af5ef9e809a5f33d2f6bd31edb346280719db992b7f",
+    "afdm_lab/workflows.py": "63c165624db2a3ef465510a140de1f498468160b71084ef6b04b8a22e481455b",
+    "hardware/rtl/afdm_rx_block.sv": "a4dd9997ce52f1f3d563285f7e8b8b4a0d5a911f8a8b2c9d7b7b2d97a591c404",
+    "hardware/rtl/afdm_tx_block.sv": "3c3b051c99d4fb57146668fd6652f2f708a4e7cecdf26984f041cbb8d0ccb756",
+    "hardware/rtl/axis_afdm_transform.sv": "2a342a45fbf2b579978e0823afc0ed7dff482fb0ff20c6ead39d9c9b1085dad8",
+    "hardware/rtl/axis_block_prefix.sv": "334a2f970e74a5de973fc702155c61a839484e59e02a52a82a6151af58307344",
+    "hardware/rtl/axis_capture_window.sv": "ac3844c621c536acd20bfd1b5cf30a23cdfda949c9bc3c41fef2529154ecae4e",
+    "hardware/rtl/axis_complex_rotator.sv": "5578fe7c705d8b11e66a99794826fef55f3b4099fe437094b5be96ee6d85393a",
+    "hardware/rtl/axis_iq_replay.sv": "fba5b471b8e2752c8dd36b3c1bb0064c168d2439870ad445a07eecd364d18ca2",
+    "hardware/rtl/axis_prefix_strip.sv": "4664973aa7cc3b3961d5cd8d4a58b9715c00c16accbc4fc43a03442c811d4a2b",
+    "hardware/tb/tb_all.sv": "1f023327be0bf56fb6f46ab1ca00c4688d87256024988b220f057796b57720da"
+  }
+}

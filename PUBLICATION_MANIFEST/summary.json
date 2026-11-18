@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "repository": "tito-xiao/FPGA-P047Pro-RFSoC",
+  "max_file_bytes": 10485760,
+  "inventoried_source_files": 77401,
+  "inventoried_source_bytes": 12082962401,
+  "copied_files": 120,
+  "placeholder_files": 110,
+  "large_original_files": 54,
+  "excluded_cache_directories": 197,
+  "private_directory_names": [
+    "Codex_迁移前备份_20261117",
+    "RFSOC_Codex聊天迁移包_20261117",
+    "tmp"
+  ],
+  "private_file_count": 8,
+  "redirected_markdown_links": 15,
+  "preexisting_unresolved_links": []
+}

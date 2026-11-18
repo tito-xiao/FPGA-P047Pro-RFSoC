@@ -1,0 +1,48 @@
+# Local scratch, credentials and private material
+/tmp/
+/local/
+/private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and Python caches
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generated hardware builds and tool caches; keep source/Tcl/XDC/IP config
+**/.Xil/
+**/.cache/
+**/*.runs/
+**/*.sim/
+**/*.gen/
+**/Debug/
+**/Release/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.dcp
+*.bit
+*.bin
+*.elf
+*.o
+
+# Large external images, raw captures and generated artifacts
+/captures/
+/artifacts/
+/afdm_runs/
+/vendor/
+*.img
+*.iso

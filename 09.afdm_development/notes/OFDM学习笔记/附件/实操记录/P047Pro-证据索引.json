@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-11-18",
+  "images": [
+    {
+      "name": "P047Pro-01-Jupyter文件列表.png",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-64ab3830-4d40-4d2f-a400-fe9d8f5a5ad2.png",
+      "sha256": "c5e6089aebec264cd42f18ded89edb0c9817f01ea874f872d8c66d69a84ebc22",
+      "kind": "user_screenshot"
+    },
+    {
+      "name": "P047Pro-02-OFDM实时QPSK星座.png",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-02b406a3-4b23-40a9-b5dd-c07d3746dc06.png",
+      "sha256": "eb7dc930e8104a6c161973dd0957f84d614e72d7ce56dd62c4f03c3f33270ede",
+      "kind": "user_screenshot"
+    },
+    {
+      "name": "P047Pro-03-QPSK保存与重绘.png",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-f1163a34-6fb9-4841-977a-0111c009999b.png",
+      "sha256": "8ce1c6fdada110055182b197193af38ebe01439bdd17b62cfe782d42e674a021",
+      "kind": "user_screenshot"
+    },
+    {
+      "name": "P047Pro-04-16QAM保存与重绘.png",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-d9911e8d-c53a-4940-9add-695ede0d26a3.png",
+      "sha256": "f970c8acab855dd723536982b81753a8d92e83089409e1b92aa750f03251090d",
+      "kind": "user_screenshot"
+    },
+    {
+      "name": "P047Pro-05-OFDM目录与ZIP.png",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-6de1a36d-144c-41e6-ae03-d86e84c349ed.png",
+      "sha256": "027bc133238bfb741a072bf3b1dd2562608e2207f1a3924858834699e5f38c67",
+      "kind": "user_screenshot"
+    },
+    {
+      "name": "P047Pro-06-OFDM综合界面.png",
+      "source": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\codex-clipboard-38dc61eb-1b9b-4ad7-af98-727bfc613a39.png",
+      "sha256": "90d6df7568aa35fe6196adcf5ca23a086c13ed47ee3278114d2994677c5c3eec",
+      "kind": "user_screenshot"
+    },
+    {
+      "name": "P047Pro-07-QPSK归档星座.png",
+      "source": "C:\\Users\\Administrator\\Desktop\\FPGA-P047Pro-RFSoC\\ofdm_baseline_b62ed1eb\\20250730_120505_672512_QPSK\\constellation.png",
+      "sha256": "c7bc2c94eaf4ef5daeb1f050cadeb641d55868c11d3bf5801adc9778c8d1284e",
+      "kind": "archived_plot"
+    },
+    {
+      "name": "P047Pro-08-16QAM归档星座.png",
+      "source": "C:\\Users\\Administrator\\Desktop\\FPGA-P047Pro-RFSoC\\ofdm_baseline_b62ed1eb\\20250730_120834_805327_16-QAM\\constellation.png",
+      "sha256": "396671e436c9ccf5ad232a8a4c07e94537351117080cb17a0f4e4b714b4658fc",
+      "kind": "archived_plot"
+    }
+  ],
+  "archived_iq": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\FPGA-P047Pro-RFSoC\\ofdm_baseline_b62ed1eb\\20250730_120505_672512_QPSK\\iq.npy",
+      "shape": [
+        1024
+      ],
+      "dtype": "complex128",
+      "samples": 1024,
+      "finite": true,
+      "sha256": "95f30961adc1e1538c502bb3d83fcdd3f5e7f19d8077962fca48ae722b38f249",
+      "metadata": {
+        "modulation": "QPSK",
+        "capture_point": "receiver constellation",
+        "samples": 1024,
+        "tx_gain": 1.0
+      },
+      "metadata_sha256": "647d0c6a438a67b94b1da69ca677609bd01c1dc82afbeb21ed87745f646775e8"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\FPGA-P047Pro-RFSoC\\ofdm_baseline_b62ed1eb\\20250730_120834_805327_16-QAM\\iq.npy",
+      "shape": [
+        1024
+      ],
+      "dtype": "complex128",
+      "samples": 1024,
+      "finite": true,
+      "sha256": "495c0de06b65389a2d739d7e4699c306cdf1f9ad91835f14a65cc37b5ca09edc",
+      "metadata": {
+        "modulation": "16-QAM",
+        "capture_point": "receiver constellation",
+        "samples": 1024,
+        "tx_gain": 1.0
+      },
+      "metadata_sha256": "cc6c9cf6ce97746e984d12050976236574361c996bc4d74309aca49aea029df3"
+    }
+  ],
+  "scope": "Read-only retrospective check; no new board or RF operation"
+}

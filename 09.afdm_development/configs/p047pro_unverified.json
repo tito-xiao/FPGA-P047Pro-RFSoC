@@ -1,0 +1,21 @@
+{
+  "board_verified": false,
+  "verified_by": null,
+  "verified_at": null,
+  "bitstream_sha256": null,
+  "stream_rate_hz": null,
+  "rx_counts_per_unit": null,
+  "tx_dma": null,
+  "rx_dma": null,
+  "tx_dma_max_bytes": null,
+  "rx_dma_max_bytes": null,
+  "capture_samples": null,
+  "replay_samples": null,
+  "replay_mode": "load_then_start",
+  "capture_generates_tlast": false,
+  "format": "int16_le_interleaved_iq",
+  "arm_capture_writes": [],
+  "start_replay_writes": [],
+  "stop_writes": [],
+  "note": "Factory rfsoc_ofdm has S2MM only. Fill this profile only after a real replay/capture overlay, RFDC mapping, clock/rate conversion and limits have been verified. No RF transfer is implemented by editing this JSON alone."
+}

@@ -1,0 +1,10 @@
+# Filtered publication snapshot: do not add private originals.
+.git/
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+__pycache__/
+.ipynb_checkpoints/

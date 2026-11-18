@@ -1,0 +1,6 @@
+{
+  "modulation": "QPSK",
+  "capture_point": "receiver constellation",
+  "samples": 1024,
+  "tx_gain": 1.0
+}
