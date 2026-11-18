@@ -133,3 +133,5 @@ Vivado 2023.1 的 XSim 实际验证：全幅 chirp 旋转、TX→CP→去 CP→R
 
 发布副本软件复核：默认系统 Python 因缺少 NumPy 未能导入测试；改用已安装的 Codex Python/NumPy 后，21/21 软件单元测试通过。未重新执行 RTL、综合或板上验证。
 
+
+归档发布结果：公开仓库 https://github.com/tito-xiao/FPGA-P047Pro-RFSoC 的 main 首次发布提交为 78ca38ad6cdf1f16652716df0fb90e15b2715ab2。GitHub 端已核对 474 个文件；54 个超过 10 MiB 的非缓存原文件均未上传，以文本说明代替，私人目录仅保留说明。21 项软件单元测试通过，未新增 RTL、综合或板上实验结论。完整副本清单和同步结果保存在 artifacts/github-publication-20261118，原开发仓库 origin、dev/xiao 和既有修改保留。
